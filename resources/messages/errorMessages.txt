@@ -1,0 +1,450 @@
+length of name must not exceed NAMELEN (X)
+length of parameter entity name must not exceed NAMELEN less the length of the PERO delimiter (X)
+length of number must not exceed NAMELEN (X)
+length of attribute value must not exceed LITLEN less NORMSEP (X)
+a name group is not allowed in a parameter entity reference in the prolog
+an entity end in a token separator must terminate an entity referenced in the same group
+character X invalid: only Y and token separators allowed
+a parameter separator is required after a number that is followed by a name start character
+character X invalid: only Y and parameter separators allowed
+an entity end in a parameter separator must terminate an entity referenced in the same declaration
+an entity end is not allowed in a token separator that does not follow a token
+X is not a valid token here
+a parameter entity reference can only occur in a group where a token could occur
+token X has already occurred in this group
+the number of tokens in a group must not exceed GRPCNT (X)
+an entity end in a literal must terminate an entity referenced in the same literal
+helloEMPTY1
+character X invalid: only minimum data characters allowed
+a parameter literal in a data tag pattern must not contain a numeric character reference to a non-SGML character
+a parameter literal in a data tag pattern must not contain a numeric character reference to a function character
+a name group is not allowed in a general entity reference in a start tag
+a name group is not allowed in a general entity reference in the prolog
+X is not a function name
+X is not a character number in the document character set
+parameter entity X not defined
+general entity X not defined and no default entity
+helloEMPTY2
+RNI delimiter must be followed by name start character
+unterminated comment: found end of entity inside comment
+comment started here
+only one type of connector should be used in a single group
+X is not a reserved name
+X is not allowed as a reserved name here
+length of interpreted minimum literal must not exceed reference LITLEN (X)
+length of tokenized attribute value must not exceed LITLEN less NORMSEP (X)
+length of system identifier must not exceed LITLEN (X)
+length of interpreted parameter literal must not exceed LITLEN (X)
+length of interpreted parameter literal in data tag pattern must not exceed DTEMPLEN (X)
+literal is missing closing delimiter
+X invalid: only Y and parameter separators are allowed
+X invalid: only Y and token separators are allowed
+X invalid: only Y and token separators are allowed
+unknown declaration type X
+X declaration not allowed in DTD subset
+character X not allowed in declaration subset
+end of document in DTD subset
+character X not allowed in prolog
+end of document in prolog
+X declaration not allowed in prolog
+X used both a rank stem and generic identifier
+omitted tag minimization parameter can be omitted only if OMITTAG NO is specified
+element type X already defined
+entity reference with no applicable DTD
+invalid comment declaration: found X outside comment but inside comment declaration
+comment declaration started here
+X declaration not allowed in instance
+non-SGML character not allowed in content
+no current rank for rank stem X
+duplicate attribute definition list for notation X
+duplicate attribute definition list for element X
+entity end not allowed in end tag
+character X not allowed in end tag
+X invalid: only S separators and TAGC allowed here
+character data is not allowed here
+document type does not allow element X here; missing one of Y start-tag
+document type does not allow element X here; assuming missing Y start-tag
+document type does not allow element X here
+no start tag specified for implied empty element X
+end tag for X omitted, but its declaration does not permit this
+start tag was here
+end tag for X omitted, but OMITTAG NO was specified
+start tag was here
+start tag omitted for element X with declared content
+end tag for X which is not finished
+start tag for X omitted, but its declaration does not permit this
+number of open elements exceeds TAGLVL (X)
+element X undefined
+empty end tag but no open elements
+X not finished but containing element ended
+end tag for element X which is not open
+internal parameter entity X cannot be CDATA or SDATA
+character X not allowed in attribute specification list
+an attribute value must be a literal unless it contains only name characters
+entity end not allowed in attribute specification list except in attribute value literal
+external parameter entity X cannot be CDATA, SDATA, NDATA or SUBDOC
+duplicate declaration of entity X
+duplicate declaration of parameter entity X
+a reference to a PI entity is allowed only in a context where a processing instruction could occur
+a reference to a CDATA or SDATA entity is allowed only in a context where a data character could occur
+a reference to a subdocument entity or external data entity is allowed only in a context where a data character could occur
+a reference to a subdocument entity or external data entity is not allowed in replaceable character data
+the number of open entities cannot exceed ENTLVL (X)
+a reference to a PI entity is not allowed in replaceable character data
+entity X is already open
+short reference map X not defined
+short reference map in DTD must specify associated element type
+short reference map in document instance cannot specify associated element type
+short reference map X for element Y not defined in DTD
+X is not a short reference delimiter
+short reference delimiter X already mapped in this declaration
+helloEMPTY3
+no document element
+entity end not allowed in processing instruction
+length of processing instruction must not exceed PILEN (X)
+missing PIC delimiter
+an attribute specification must start with a name or name token
+X is not a member of a group specified for any attribute
+the name and VI delimiter can be omitted from an attribute specification only if SHORTTAG YES is specified
+there is no attribute X
+an attribute value specification must start with a literal or a name character
+length of name token must not exceed NAMELEN (X)
+an attribute value literal can occur in an attribute specification list only after a VI delimiter
+duplicate specification of attribute X
+duplicate definition of attribute X
+data attribute specification must be omitted if attribute specification list is empty
+marked section end not in marked section declaration
+number of open marked sections must not exceed TAGLVL (X)
+missing marked section end
+marked section started here
+entity end in character data, replaceable character data or ignored marked section
+normalized length of attribute value literal must not exceed LITLEN (X); length was Y
+syntax of attribute value does not conform to declared value
+character X is not allowed in the value of attribute Y
+value of attribute X must be a single token
+value of attribute Y invalid: X cannot start a number token
+value of attribute Y invalid: X cannot start a name
+non-impliable attribute X not specified but OMITTAG NO and SHORTTAG NO
+required attribute X not specified
+first occurrence of CURRENT attribute X not specified
+X is not a notation name
+X is not a general entity name
+value of attribute Y cannot be X; must be one of Z
+X is not a data or subdocument entity
+content model is ambiguous: when no tokens have been matched, both the Y and Z occurrences of X are possible
+content model is ambiguous: when the current token is the Y occurrence of X, both the A and B occurrences of Z are possible
+content model is ambiguous: when the current token is the Y occurrence of X and the innermost containing AND group has been matched, both the A and B occurrences of Z are possible
+content model is ambiguous: when the current token is the Y occurrence of X and the innermost Z containing AND groups have been matched, both the B and C occurrences of A are possible
+invalid comment declaration: found character X outside comment but inside comment declaration
+comment declaration started here
+non SGML character number X
+data or replaceable character data in declaration subset
+ID X already defined
+ID X first defined here
+value of fixed attribute X not equal to default
+character X is not significant in the reference concrete syntax and so cannot occur in a comment in the SGML declaration
+minimum data of first minimum literal in SGML declaration must be ""ISO 8879:1986"" or ""ISO 8879:1986 (ENR)"" or ""ISO 8879:1986 (WWW)"" not X
+parameter before LCNMSTRT must be NAMING not X
+unexpected entity end in SGML declaration: only X, S separators and comments allowed
+X invalid: only Y and parameter separators allowed
+magnitude of X too big
+character X is not significant in the reference concrete syntax and so cannot occur in a literal in the SGML declaration except as the replacement of a character reference
+X is not a valid syntax reference character number
+a parameter entity reference cannot occur in an SGML declaration
+X invalid: only Y and parameter separators are allowed
+cannot continue because of previous errors
+SGML declaration cannot be parsed because the character set does not contain characters having the following numbers in ISO 646: X
+the specified character set is invalid because it does not contain the minimum data characters having the following numbers in ISO 646: X
+character numbers declared more than once: X
+character numbers should have been declared UNUSED: X
+character numbers missing in base set: X
+characters in the document character set with numbers exceeding X not supported
+invalid formal public identifier X: missing //
+invalid formal public identifier X: no SPACE after public text class
+invalid formal public identifier X: invalid public text class
+invalid formal public identifier X: public text language must be a name containing only upper case letters
+invalid formal public identifer X: public text display version not permitted with this text class
+invalid formal public identifier X: extra field
+public text class of public identifier in notation identifier must be NOTATION
+base character set X is unknown
+delimiter set is ambiguous: X and Y can be recognized in the same mode
+characters with the following numbers in the syntax reference character set are significant in the concrete syntax but are not in the document character set: X
+there is no unique character in the document character set corresponding to character number X in the syntax reference character set
+there is no unique character in the internal character set corresponding to character number X in the syntax reference character set
+the character with number X in ISO 646 is significant but has no representation in the syntax reference character set
+capacity set X is unknown
+capacity X already specified
+value of capacity X exceeds value of TOTALCAP
+syntax X is unknown
+UCNMSTRT must have the same number of characters as LCNMSTRT
+UCNMCHAR must have the same number of characters as LCNMCHAR
+number of open subdocuments exceeds quantity specified for SUBDOC parameter in SGML declaration (X)
+entity X declared SUBDOC, but SUBDOC NO specified in SGML declaration
+a parameter entity referenced in a parameter separator must end in the same declaration
+reference to non-existent ID X
+generic identifier X used in DTD but not defined
+X not finished but document ended
+cannot continue with subdocument because of previous errors
+no document type declaration; will parse without validation
+no internal or external document type declaration subset; will parse without validation
+this is not an SGML document
+length of start-tag before interpretation of literals must not exceed TAGLEN (X)
+a parameter entity referenced in a token separator must end in the same group
+the following character numbers are shunned characters that are not significant and so should have been declared UNUSED: X
+there is no unique character in the specified document character set corresponding to character number X in ISO 646
+length of attribute value must not exceed LITLEN less NORMSEP (-X)
+length of tokenized attribute value must not exceed LITLEN less NORMSEP (-X)
+concrete syntax scope is INSTANCE but value of X quantity is less than value in reference quantity set
+public text class of formal public identifier of base character set must be CHARSET
+public text class of formal public identifier of capacity set must be CAPACITY
+public text class of formal public identifier of concrete syntax must be SYNTAX
+when there is an MSOCHAR there must also be an MSICHAR
+character number X in the syntax reference character set was specified as a character to be switched but is not a markup character
+character number X was specified as a character to be switched but is not in the syntax reference character set
+character numbers X in the document character set have been assigned the same meaning, but this is the meaning of a significant character
+character number X assigned to more than one function
+X is already a function name
+characters with the following numbers in ISO 646 are significant in the concrete syntax but are not in the document character set: X
+general delimiter X consists solely of function characters
+letters assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT: X
+digits assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT: X
+character number X cannot be assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT because it is RE
+character number X cannot be assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT because it is RS
+character number X cannot be assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT because it is SPACE
+separator characters assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT: X
+character number X cannot be switched because it is a Digit, LC Letter or UC Letter
+pointless for number of characters to be 0
+X cannot be the replacement for a reference reserved name because it is another reference reserved name
+X cannot be the replacement for a reference reserved name because it is the replacement of another reference reserved name
+replacement for reserved name X already specified
+X is not a valid name in the declared concrete syntax
+X is not a valid short reference delimiter because it has more than one B sequence
+X is not a valid short reference delimiter because it is adjacent to a character that can occur in a blank sequence
+length of delimiter X exceeds NAMELEN (Y)
+length of reserved name X exceeds NAMELEN (Y)
+character numbers assigned to both LCNMCHAR or UCNMCHAR and LCNMSTRT or UCNMSTRT: X
+when the concrete syntax scope is INSTANCE the syntax reference character set of the declared syntax must be the same as that of the reference concrete syntax
+end-tag minimization should be O for element with declared content of EMPTY
+end-tag minimization should be O for element X because it has CONREF attribute
+element X has a declared content of EMPTY and a CONREF attribute
+element X has a declared content of EMPTY and a NOTATION attribute
+declared value of data attribute cannot be ENTITY, ENTITIES, ID, IDREF, IDREFS or NOTATION
+default value of data attribute cannot be CONREF or CURRENT
+number of attribute names and name tokens (X) exceeds ATTCNT (Y)
+if the declared value is ID the default value must be IMPLIED or REQUIRED
+the attribute definition list already declared attribute X as the ID attribute
+the attribute definition list already declared attribute X as the NOTATION attribute
+token X occurs more than once in attribute definition list
+no attributes defined for notation X
+notation X for entity Y undefined
+entity X undefined in short reference map Y
+notation X is undefined but had attribute definition
+length of interpreted parameter literal in bracketed text plus the length of the bracketing delimiters must not exceed LITLEN (X)
+length of rank stem plus length of rank suffix must not exceed NAMELEN (X)
+document instance must start with document element
+content model nesting level exceeds GRPLVL (X)
+grand total of content tokens exceeds GRPGTCNT (X)
+unclosed start-tag requires SHORTTAG YES
+NET-enabling start-tag requires SHORTTAG YES
+unclosed end-tag requires SHORTTAG YES
+DTDs other than base allowed only if CONCUR YES or EXPLICIT YES
+end of entity other than document entity after document element
+X declaration illegal after document element
+character reference illegal after document element
+entity reference illegal after document element
+marked section illegal after document element
+the X occurrence of Y in the content model for Z cannot be excluded at this point because it is contextually required
+the X occurrence of Y in the content model for Z cannot be excluded because it is neither inherently optional nor a member of an OR group
+an attribute value specification must be an attribute value literal unless SHORTTAG YES is specified
+value cannot be specified both for notation attribute and content reference attribute
+notation X already defined
+short reference map X already defined
+first defined here
+general delimiter role X already defined
+number of ID references in start-tag must not exceed GRPCNT (X)
+number of entity names in attribute specification list must not exceed GRPCNT (X)
+normalized length of attribute specification list must not exceed ATTSPLEN (X); length was Y
+short reference delimiter X already specified
+single character short references were already specified for character numbers: X
+default entity used in entity attribute X
+reference to entity X uses default entity
+entity X in short reference map Y uses default entity
+no DTD X declared
+LPD X has neither internal nor external subset
+element types have different link attribute definitions
+link set X already defined
+empty result attribute specification
+no source element type X
+no result element type X
+end of document in LPD subset
+X declaration not allowed in LPD subset
+ID link set declaration not allowed in simple link declaration subset
+link set declaration not allowed in simple link declaration subset
+attributes can only be defined for base document element (not X) in simple link declaration subset
+a short reference mapping declaration is allowed only in the base DTD
+a short reference use declaration is allowed only in the base DTD
+default value of link attribute cannot be CURRENT or CONREF
+declared value of link attribute cannot be ID, IDREF, IDREFS or NOTATION
+only fixed attributes can be defined in simple LPD
+only one ID link set declaration allowed in an LPD subset
+no initial link set defined for LPD X
+notation X not defined in source DTD
+result document type in simple link specification must be implied
+simple link requires SIMPLE YES
+implicit link requires IMPLICIT YES
+explicit link requires EXPLICIT YES
+LPD not allowed before first DTD
+DTD not allowed after an LPD
+definition of general entity X is unstable
+definition of parameter entity X is unstable
+multiple link rules for ID X but not all have link attribute specifications
+multiple link rules for element type X but not all have link attribute specifications
+link type X does not have a link set Y
+link set use declaration for simple link process
+no link type X
+both document type and link type X
+link type X already defined
+document type X already defined
+link set X used in LPD but not defined
+#IMPLIED already linked to result element type X
+number of active simple link processes exceeds quantity specified for SIMPLE parameter in SGML declaration (X)
+only one chain of explicit link processes can be active
+source document type name for link type X must be base document type since EXPLICIT YES 1
+only one implicit link process can be active
+sorry, link type X not activated: only one implicit or explicit link process can be active (with base document type as source document type)
+name missing after name group in entity reference
+source document type name for link type X must be base document type since EXPLICIT NO
+link process must be activated before base DTD
+unexpected entity end while starting second pass
+type X of element with ID Y not associated element type for applicable link rule in ID link set
+DATATAG feature not implemented
+generic identifier specification missing after document type specification in start-tag
+generic identifier specification missing after document type specification in end-tag
+a NET-enabling start-tag cannot include a document type specification
+DTD did not contain element declaration for document type name
+invalid default SGML declaration
+reference to entity X for which no system identifier could be generated
+entity was defined here
+content model is mixed but does not allow #PCDATA everywhere
+start or end of range must specify a single character
+number of first character in range must not exceed number of second character in range
+delimiter cannot be an empty string
+too many characters assigned same meaning with minimum literal
+earlier reference to entity X used default entity
+empty start-tag
+empty end-tag
+unused short reference map X
+unused parameter entity X
+cannot generate system identifier for public text X
+cannot generate system identifier for general entity X
+cannot generate system identifier for parameter entity X
+cannot generate system identifier for document type X
+cannot generate system identifier for link type X
+cannot generate system identifier for notation X
+element type X both included and excluded
+no document type declaration; implying X
+minimum data of AFDR declaration must be ""ISO/IEC 10744:1997"" not X
+AFDR declaration required before use of AFDR extensions
+ENR extensions were used but minimum literal was not ""ISO 8879:1986 (ENR)"" or ""ISO 8879:1986 (WWW)""
+illegal numeric character reference to non-SGML character X in literal
+cannot convert character reference to number X because description Y unrecognized
+cannot convert character reference to number X because character Y from baseset Z unknown
+character reference to number X cannot be converted because of problem with internal character set
+cannot convert character reference to number X because character not in internal character set
+Web SGML adaptations were used but minimum literal was not ""ISO 8879:1986 (WWW)""
+token X can be value for multiple attributes so attribute name required
+length of hex number must not exceed NAMELEN (X)
+X is not a valid name in the declared concrete syntax
+CDATA declared content
+RCDATA declared content
+inclusion
+exclusion
+NUMBER or NUMBERS declared value
+NAME or NAMES declared value
+NUTOKEN or NUTOKENS declared value
+CONREF attribute
+CURRENT attribute
+TEMP marked section
+included marked section in the instance
+ignored marked section in the instance
+RCDATA marked section
+processing instruction entity
+bracketed text entity
+internal CDATA entity
+internal SDATA entity
+external CDATA entity
+external SDATA entity
+attribute definition list declaration for notation
+rank stem
+no system id specified
+comment in parameter separator
+named character reference
+AND group
+attribute value not a literal
+attribute name missing
+element declaration for group of element types
+attribute definition list declaration for group of element types
+empty comment declaration
+S separator in comment declaration
+multiple comments in comment declaration
+no status keyword
+multiple status keywords
+parameter entity reference in document instance
+CURRENT attribute
+element type minimization parameter
+reference not terminated by REFC delimiter
+#PCDATA not first in model group
+#PCDATA in SEQ group
+#PCDATA in nested model group
+#PCDATA in model group that does not have REP occurrence indicator
+name group or name token group used connector other than OR
+processing instruction does not start with name
+S separator in status keyword specification in document instance
+reference to external data entity
+reference to external entity in attribute value
+character X is the first character of a delimiter but occurred as data
+SGML declaration was not implied
+marked section in internal DTD subset
+NET-enabling start-tag not immediately followed by null end-tag
+entity end in different element from entity reference
+NETENABL IMMEDNET requires EMPTYNRM YES
+reference to non-SGML character
+declaration of default entity
+reference to parameter entity in parameter separator in internal subset
+reference to parameter entity in token separator in internal subset
+reference to parameter entity in parameter literal in internal subset
+cannot generate system identifier for SGML declaration reference
+public text class of formal public identifier of SGML declaration must be SD
+SGML declaration reference was used but minimum literal was not ""ISO 8879:1986 (WWW)""
+member of model group containing #PCDATA has occurrence indicator
+member of model group containing #PCDATA is a model group
+reference to non-predefined entity
+reference to external entity
+declaration of default entity conflicts with IMPLYDEF ENTITY YES
+parsing with respect to more than one active doctype not supported
+cannot have active doctypes and link types at the same time
+number of concurrent document instances exceeds quantity specified for CONCUR parameter in SGML declaration (X)
+datatag group can only be specified in base document type
+element not in the base document type can't have an empty start-tag
+element not in base document type can't have an empty end-tag
+immediately recursive element
+invalid URN X: missing "":""
+invalid URN X: missing ""urn:"" prefix
+invalid URN X: invalid namespace identifier
+invalid URN X: invalid namespace specific string
+invalid URN X: extra field
+prolog can't be omitted unless CONCUR NO and LINK EXPLICIT NO and either IMPLYDEF ELEMENT YES or IMPLYDEF DOCTYPE YES
+can't determine name of #IMPLIED document element
+can't use #IMPLICIT doctype unless CONCUR NO and LINK EXPLICIT NO
+Sorry, #IMPLIED doctypes not implemented
+reference to DTD data entity ignored
+notation X for parameter entity Y undefined
+notation X for external subset undefined
+attribute X can't be redeclared
+#IMPLICIT attributes have already been specified for notation X
+a name group is not allowed in a parameter entity reference in a start tag
+name group in a parameter entity reference in an end tag (SGML forbids them in start tags)
+if the declared value is NOTATION a default value of CONREF is useless
+Sorry, #ALL and #IMPLICIT content tokens not implemented
+Missing X attribute for element Y. The value should be: Z
+This interface to HTML5 document checking is obsolete. Use an interface to the W3C Nu Html Checker instead.

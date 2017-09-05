@@ -1,0 +1,450 @@
+length of name must not exceed NAMELEN .(.*)?.
+length of parameter entity name must not exceed NAMELEN less the length of the PERO delimiter .(.*)?.
+length of number must not exceed NAMELEN .(.*)?.
+length of attribute value must not exceed LITLEN less NORMSEP .(.*)?.
+a name group is not allowed in a parameter entity reference in the prolog
+an entity end in a token separator must terminate an entity referenced in the same group
+character (.*)? invalid: only (.*)? and token separators allowed
+a parameter separator is required after a number that is followed by a name start character
+character (.*)? invalid: only (.*)? and parameter separators allowed
+an entity end in a parameter separator must terminate an entity referenced in the same declaration
+an entity end is not allowed in a token separator that does not follow a token
+(.*)? is not a valid token here
+a parameter entity reference can only occur in a group where a token could occur
+token (.*)? has already occurred in this group
+the number of tokens in a group must not exceed GRPCNT .(.*)?.
+an entity end in a literal must terminate an entity referenced in the same literal
+EMPTY
+character (.*)? invalid: only minimum data characters allowed
+a parameter literal in a data tag pattern must not contain a numeric character reference to a non-SGML character
+a parameter literal in a data tag pattern must not contain a numeric character reference to a function character
+a name group is not allowed in a general entity reference in a start tag
+a name group is not allowed in a general entity reference in the prolog
+(.*)? is not a function name
+(.*)? is not a character number in the document character set
+parameter entity (.*)? not defined
+general entity (.*)? not defined and no default entity
+EMPTY
+RNI delimiter must be followed by name start character
+unterminated comment: found end of entity inside comment
+comment started here
+only one type of connector should be used in a single group
+(.*)? is not a reserved name
+(.*)? is not allowed as a reserved name here
+length of interpreted minimum literal must not exceed reference LITLEN .(.*)?.
+length of tokenized attribute value must not exceed LITLEN less NORMSEP .(.*)?.
+length of system identifier must not exceed LITLEN .(.*)?.
+length of interpreted parameter literal must not exceed LITLEN .(.*)?.
+length of interpreted parameter literal in data tag pattern must not exceed DTEMPLEN .(.*)?.
+literal is missing closing delimiter
+(.*)? invalid: only (.*)? and parameter separators are allowed
+(.*)? invalid: only (.*)? and token separators are allowed
+(.*)? invalid: only (.*)? and token separators are allowed
+unknown declaration type (.*)?
+(.*)? declaration not allowed in DTD subset
+character (.*)? not allowed in declaration subset
+end of document in DTD subset
+character (.*)? not allowed in prolog
+end of document in prolog
+(.*)? declaration not allowed in prolog
+(.*)? used both a rank stem and generic identifier
+omitted tag minimization parameter can be omitted only if OMITTAG NO is specified
+element type (.*)? already defined
+entity reference with no applicable DTD
+invalid comment declaration: found (.*)? outside comment but inside comment declaration
+comment declaration started here
+(.*)? declaration not allowed in instance
+non-SGML character not allowed in content
+no current rank for rank stem (.*)?
+duplicate attribute definition list for notation (.*)?
+duplicate attribute definition list for element (.*)?
+entity end not allowed in end tag
+character (.*)? not allowed in end tag
+(.*)? invalid: only S separators and TAGC allowed here
+character data is not allowed here
+document type does not allow element (.*)? here; missing one of (.*)? start-tag
+document type does not allow element (.*)? here; assuming missing (.*)? start-tag
+document type does not allow element (.*)? here
+no start tag specified for implied empty element (.*)?
+end tag for (.*)? omitted, but its declaration does not permit this
+start tag was here
+end tag for (.*)? omitted, but OMITTAG NO was specified
+start tag was here
+start tag omitted for element (.*)? with declared content
+end tag for (.*)? which is not finished
+start tag for (.*)? omitted, but its declaration does not permit this
+number of open elements exceeds TAGLVL .(.*)?.
+element (.*)? undefined
+empty end tag but no open elements
+(.*)? not finished but containing element ended
+end tag for element (.*)? which is not open
+internal parameter entity (.*)? cannot be CDATA or SDATA
+character (.*)? not allowed in attribute specification list
+an attribute value must be a literal unless it contains only name characters
+entity end not allowed in attribute specification list except in attribute value literal
+external parameter entity (.*)? cannot be CDATA, SDATA, NDATA or SUBDOC
+duplicate declaration of entity (.*)?
+duplicate declaration of parameter entity (.*)?
+a reference to a PI entity is allowed only in a context where a processing instruction could occur
+a reference to a CDATA or SDATA entity is allowed only in a context where a data character could occur
+a reference to a subdocument entity or external data entity is allowed only in a context where a data character could occur
+a reference to a subdocument entity or external data entity is not allowed in replaceable character data
+the number of open entities cannot exceed ENTLVL .(.*)?.
+a reference to a PI entity is not allowed in replaceable character data
+entity (.*)? is already open
+short reference map (.*)? not defined
+short reference map in DTD must specify associated element type
+short reference map in document instance cannot specify associated element type
+short reference map (.*)? for element (.*)? not defined in DTD
+(.*)? is not a short reference delimiter
+short reference delimiter (.*)? already mapped in this declaration
+EMPTY
+no document element
+entity end not allowed in processing instruction
+length of processing instruction must not exceed PILEN .(.*)?.
+missing PIC delimiter
+an attribute specification must start with a name or name token
+(.*)? is not a member of a group specified for any attribute
+the name and VI delimiter can be omitted from an attribute specification only if SHORTTAG YES is specified
+there is no attribute (.*)?
+an attribute value specification must start with a literal or a name character
+length of name token must not exceed NAMELEN .(.*)?.
+an attribute value literal can occur in an attribute specification list only after a VI delimiter
+duplicate specification of attribute (.*)?
+duplicate definition of attribute (.*)?
+data attribute specification must be omitted if attribute specification list is empty
+marked section end not in marked section declaration
+number of open marked sections must not exceed TAGLVL .(.*)?.
+missing marked section end
+marked section started here
+entity end in character data, replaceable character data or ignored marked section
+normalized length of attribute value literal must not exceed LITLEN .(.*)?.; length was (.*)?
+syntax of attribute value does not conform to declared value
+character (.*)? is not allowed in the value of attribute (.*)?
+value of attribute (.*)? must be a single token
+value of attribute (.*)? invalid: (.*)? cannot start a number token
+value of attribute (.*)? invalid: (.*)? cannot start a name
+non-impliable attribute (.*)? not specified but OMITTAG NO and SHORTTAG NO
+required attribute (.*)? not specified
+first occurrence of CURRENT attribute (.*)? not specified
+(.*)? is not a notation name
+(.*)? is not a general entity name
+value of attribute (.*)? cannot be (.*)?; must be one of (.*)?
+(.*)? is not a data or subdocument entity
+content model is ambiguous: when no tokens have been matched, both the (.*)? and (.*)? occurrences of (.*)? are possible
+content model is ambiguous: when the current token is the (.*)? occurrence of (.*)?, both the (.*)? and (.*)? occurrences of (.*)? are possible
+content model is ambiguous: when the current token is the (.*)? occurrence of (.*)? and the innermost containing AND group has been matched, both the (.*)? and (.*)? occurrences of (.*)? are possible
+content model is ambiguous: when the current token is the (.*)? occurrence of (.*)? and the innermost (.*)? containing AND groups have been matched, both the (.*)? and (.*)? occurrences of (.*)? are possible
+invalid comment declaration: found character (.*)? outside comment but inside comment declaration
+comment declaration started here
+non SGML character number (.*)?
+data or replaceable character data in declaration subset
+ID (.*)? already defined
+ID (.*)? first defined here
+value of fixed attribute (.*)? not equal to default
+character (.*)? is not significant in the reference concrete syntax and so cannot occur in a comment in the SGML declaration
+minimum data of first minimum literal in SGML declaration must be ""ISO 8879:1986"" or ""ISO 8879:1986 (ENR)"" or ""ISO 8879:1986 (WWW)"" not (.*)?
+parameter before LCNMSTRT must be NAMING not (.*)?
+unexpected entity end in SGML declaration: only (.*)?, S separators and comments allowed
+(.*)? invalid: only (.*)? and parameter separators allowed
+magnitude of (.*)? too big
+character (.*)? is not significant in the reference concrete syntax and so cannot occur in a literal in the SGML declaration except as the replacement of a character reference
+(.*)? is not a valid syntax reference character number
+a parameter entity reference cannot occur in an SGML declaration
+(.*)? invalid: only (.*)? and parameter separators are allowed
+cannot continue because of previous errors
+SGML declaration cannot be parsed because the character set does not contain characters having the following numbers in ISO 646: (.*)?
+the specified character set is invalid because it does not contain the minimum data characters having the following numbers in ISO 646: (.*)?
+character numbers declared more than once: (.*)?
+character numbers should have been declared UNUSED: (.*)?
+character numbers missing in base set: (.*)?
+characters in the document character set with numbers exceeding (.*)? not supported
+invalid formal public identifier (.*)?: missing //
+invalid formal public identifier (.*)?: no SPACE after public text class
+invalid formal public identifier (.*)?: invalid public text class
+invalid formal public identifier (.*)?: public text language must be a name containing only upper case letters
+invalid formal public identifer (.*)?: public text display version not permitted with this text class
+invalid formal public identifier (.*)?: extra field
+public text class of public identifier in notation identifier must be NOTATION
+base character set (.*)? is unknown
+delimiter set is ambiguous: (.*)? and (.*)? can be recognized in the same mode
+characters with the following numbers in the syntax reference character set are significant in the concrete syntax but are not in the document character set: (.*)?
+there is no unique character in the document character set corresponding to character number (.*)? in the syntax reference character set
+there is no unique character in the internal character set corresponding to character number (.*)? in the syntax reference character set
+the character with number (.*)? in ISO 646 is significant but has no representation in the syntax reference character set
+capacity set (.*)? is unknown
+capacity (.*)? already specified
+value of capacity (.*)? exceeds value of TOTALCAP
+syntax (.*)? is unknown
+UCNMSTRT must have the same number of characters as LCNMSTRT
+UCNMCHAR must have the same number of characters as LCNMCHAR
+number of open subdocuments exceeds quantity specified for SUBDOC parameter in SGML declaration .(.*)?.
+entity (.*)? declared SUBDOC, but SUBDOC NO specified in SGML declaration
+a parameter entity referenced in a parameter separator must end in the same declaration
+reference to non-existent ID (.*)?
+generic identifier (.*)? used in DTD but not defined
+(.*)? not finished but document ended
+cannot continue with subdocument because of previous errors
+no document type declaration; will parse without validation
+no internal or external document type declaration subset; will parse without validation
+this is not an SGML document
+length of start-tag before interpretation of literals must not exceed TAGLEN .(.*)?.
+a parameter entity referenced in a token separator must end in the same group
+the following character numbers are shunned characters that are not significant and so should have been declared UNUSED: (.*)?
+there is no unique character in the specified document character set corresponding to character number (.*)? in ISO 646
+length of attribute value must not exceed LITLEN less NORMSEP .-(.*)?.
+length of tokenized attribute value must not exceed LITLEN less NORMSEP .-(.*)?.
+concrete syntax scope is INSTANCE but value of (.*)? quantity is less than value in reference quantity set
+public text class of formal public identifier of base character set must be CHARSET
+public text class of formal public identifier of capacity set must be CAPACITY
+public text class of formal public identifier of concrete syntax must be SYNTAX
+when there is an MSOCHAR there must also be an MSICHAR
+character number (.*)? in the syntax reference character set was specified as a character to be switched but is not a markup character
+character number (.*)? was specified as a character to be switched but is not in the syntax reference character set
+character numbers (.*)? in the document character set have been assigned the same meaning, but this is the meaning of a significant character
+character number (.*)? assigned to more than one function
+(.*)? is already a function name
+characters with the following numbers in ISO 646 are significant in the concrete syntax but are not in the document character set: (.*)?
+general delimiter (.*)? consists solely of function characters
+letters assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT: (.*)?
+digits assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT: (.*)?
+character number (.*)? cannot be assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT because it is RE
+character number (.*)? cannot be assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT because it is RS
+character number (.*)? cannot be assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT because it is SPACE
+separator characters assigned to LCNMCHAR, UCNMCHAR, LCNMSTRT or UCNMSTRT: (.*)?
+character number (.*)? cannot be switched because it is a Digit, LC Letter or UC Letter
+pointless for number of characters to be 0
+(.*)? cannot be the replacement for a reference reserved name because it is another reference reserved name
+(.*)? cannot be the replacement for a reference reserved name because it is the replacement of another reference reserved name
+replacement for reserved name (.*)? already specified
+(.*)? is not a valid name in the declared concrete syntax
+(.*)? is not a valid short reference delimiter because it has more than one (.*)? sequence
+(.*)? is not a valid short reference delimiter because it is adjacent to a character that can occur in a blank sequence
+length of delimiter (.*)? exceeds NAMELEN .(.*)?.
+length of reserved name (.*)? exceeds NAMELEN .(.*)?.
+character numbers assigned to both LCNMCHAR or UCNMCHAR and LCNMSTRT or UCNMSTRT: (.*)?
+when the concrete syntax scope is INSTANCE the syntax reference character set of the declared syntax must be the same as that of the reference concrete syntax
+end-tag minimization should be O for element with declared content of EMPTY
+end-tag minimization should be O for element (.*)? because it has CONREF attribute
+element (.*)? has a declared content of EMPTY and a CONREF attribute
+element (.*)? has a declared content of EMPTY and a NOTATION attribute
+declared value of data attribute cannot be ENTITY, ENTITIES, ID, IDREF, IDREFS or NOTATION
+default value of data attribute cannot be CONREF or CURRENT
+number of attribute names and name tokens .(.*)?. exceeds ATTCNT .(.*)?.
+if the declared value is ID the default value must be IMPLIED or REQUIRED
+the attribute definition list already declared attribute (.*)? as the ID attribute
+the attribute definition list already declared attribute (.*)? as the NOTATION attribute
+token (.*)? occurs more than once in attribute definition list
+no attributes defined for notation (.*)?
+notation (.*)? for entity (.*)? undefined
+entity (.*)? undefined in short reference map (.*)?
+notation (.*)? is undefined but had attribute definition
+length of interpreted parameter literal in bracketed text plus the length of the bracketing delimiters must not exceed LITLEN .(.*)?.
+length of rank stem plus length of rank suffix must not exceed NAMELEN .(.*)?.
+document instance must start with document element
+content model nesting level exceeds GRPLVL .(.*)?.
+grand total of content tokens exceeds GRPGTCNT .(.*)?.
+unclosed start-tag requires SHORTTAG YES
+NET-enabling start-tag requires SHORTTAG YES
+unclosed end-tag requires SHORTTAG YES
+DTDs other than base allowed only if CONCUR YES or EXPLICIT YES
+end of entity other than document entity after document element
+(.*)? declaration illegal after document element
+character reference illegal after document element
+entity reference illegal after document element
+marked section illegal after document element
+the (.*)? occurrence of (.*)? in the content model for (.*)? cannot be excluded at this point because it is contextually required
+the (.*)? occurrence of (.*)? in the content model for (.*)? cannot be excluded because it is neither inherently optional nor a member of an OR group
+an attribute value specification must be an attribute value literal unless SHORTTAG YES is specified
+value cannot be specified both for notation attribute and content reference attribute
+notation (.*)? already defined
+short reference map (.*)? already defined
+first defined here
+general delimiter role (.*)? already defined
+number of ID references in start-tag must not exceed GRPCNT .(.*)?.
+number of entity names in attribute specification list must not exceed GRPCNT .(.*)?.
+normalized length of attribute specification list must not exceed ATTSPLEN .(.*)?.; length was (.*)?
+short reference delimiter (.*)? already specified
+single character short references were already specified for character numbers: (.*)?
+default entity used in entity attribute (.*)?
+reference to entity (.*)? uses default entity
+entity (.*)? in short reference map (.*)? uses default entity
+no DTD (.*)? declared
+LPD (.*)? has neither internal nor external subset
+element types have different link attribute definitions
+link set (.*)? already defined
+empty result attribute specification
+no source element type (.*)?
+no result element type (.*)?
+end of document in LPD subset
+(.*)? declaration not allowed in LPD subset
+ID link set declaration not allowed in simple link declaration subset
+link set declaration not allowed in simple link declaration subset
+attributes can only be defined for base document element .not (.*)?. in simple link declaration subset
+a short reference mapping declaration is allowed only in the base DTD
+a short reference use declaration is allowed only in the base DTD
+default value of link attribute cannot be CURRENT or CONREF
+declared value of link attribute cannot be ID, IDREF, IDREFS or NOTATION
+only fixed attributes can be defined in simple LPD
+only one ID link set declaration allowed in an LPD subset
+no initial link set defined for LPD (.*)?
+notation (.*)? not defined in source DTD
+result document type in simple link specification must be implied
+simple link requires SIMPLE YES
+implicit link requires IMPLICIT YES
+explicit link requires EXPLICIT YES
+LPD not allowed before first DTD
+DTD not allowed after an LPD
+definition of general entity (.*)? is unstable
+definition of parameter entity (.*)? is unstable
+multiple link rules for ID (.*)? but not all have link attribute specifications
+multiple link rules for element type (.*)? but not all have link attribute specifications
+link type (.*)? does not have a link set (.*)?
+link set use declaration for simple link process
+no link type (.*)?
+both document type and link type (.*)?
+link type (.*)? already defined
+document type (.*)? already defined
+link set (.*)? used in LPD but not defined
+#IMPLIED already linked to result element type (.*)?
+number of active simple link processes exceeds quantity specified for SIMPLE parameter in SGML declaration .(.*)?.
+only one chain of explicit link processes can be active
+source document type name for link type (.*)? must be base document type since EXPLICIT YES 1
+only one implicit link process can be active
+sorry, link type (.*)? not activated: only one implicit or explicit link process can be active (with base document type as source document type)
+name missing after name group in entity reference
+source document type name for link type (.*)? must be base document type since EXPLICIT NO
+link process must be activated before base DTD
+unexpected entity end while starting second pass
+type (.*)? of element with ID (.*)? not associated element type for applicable link rule in ID link set
+DATATAG feature not implemented
+generic identifier specification missing after document type specification in start-tag
+generic identifier specification missing after document type specification in end-tag
+a NET-enabling start-tag cannot include a document type specification
+DTD did not contain element declaration for document type name
+invalid default SGML declaration
+reference to entity (.*)? for which no system identifier could be generated
+entity was defined here
+content model is mixed but does not allow #PCDATA everywhere
+start or end of range must specify a single character
+number of first character in range must not exceed number of second character in range
+delimiter cannot be an empty string
+too many characters assigned same meaning with minimum literal
+earlier reference to entity (.*)? used default entity
+empty start-tag
+empty end-tag
+unused short reference map (.*)?
+unused parameter entity (.*)?
+cannot generate system identifier for public text (.*)?
+cannot generate system identifier for general entity (.*)?
+cannot generate system identifier for parameter entity (.*)?
+cannot generate system identifier for document type (.*)?
+cannot generate system identifier for link type (.*)?
+cannot generate system identifier for notation (.*)?
+element type (.*)? both included and excluded
+no document type declaration; implying (.*)?
+minimum data of AFDR declaration must be ""ISO/IEC 10744:1997"" not (.*)?
+AFDR declaration required before use of AFDR extensions
+ENR extensions were used but minimum literal was not ""ISO 8879:1986 .ENR."" or ""ISO 8879:1986 .WWW.""
+illegal numeric character reference to non-SGML character (.*)? in literal
+cannot convert character reference to number (.*)? because description (.*)? unrecognized
+cannot convert character reference to number (.*)? because character (.*)? from baseset (.*)? unknown
+character reference to number (.*)? cannot be converted because of problem with internal character set
+cannot convert character reference to number (.*)? because character not in internal character set
+Web SGML adaptations were used but minimum literal was not ""ISO 8879:1986 .WWW.""
+token (.*)? can be value for multiple attributes so attribute name required
+length of hex number must not exceed NAMELEN .(.*)?.
+(.*)? is not a valid name in the declared concrete syntax
+CDATA declared content
+RCDATA declared content
+inclusion
+exclusion
+NUMBER or NUMBERS declared value
+NAME or NAMES declared value
+NUTOKEN or NUTOKENS declared value
+CONREF attribute
+CURRENT attribute
+TEMP marked section
+included marked section in the instance
+ignored marked section in the instance
+RCDATA marked section
+processing instruction entity
+bracketed text entity
+internal CDATA entity
+internal SDATA entity
+external CDATA entity
+external SDATA entity
+attribute definition list declaration for notation
+rank stem
+no system id specified
+comment in parameter separator
+named character reference
+AND group
+attribute value not a literal
+attribute name missing
+element declaration for group of element types
+attribute definition list declaration for group of element types
+empty comment declaration
+S separator in comment declaration
+multiple comments in comment declaration
+no status keyword
+multiple status keywords
+parameter entity reference in document instance
+CURRENT attribute
+element type minimization parameter
+reference not terminated by REFC delimiter
+#PCDATA not first in model group
+#PCDATA in SEQ group
+#PCDATA in nested model group
+#PCDATA in model group that does not have REP occurrence indicator
+name group or name token group used connector other than OR
+processing instruction does not start with name
+S separator in status keyword specification in document instance
+reference to external data entity
+reference to external entity in attribute value
+character (.*)? is the first character of a delimiter but occurred as data
+SGML declaration was not implied
+marked section in internal DTD subset
+NET-enabling start-tag not immediately followed by null end-tag
+entity end in different element from entity reference
+NETENABL IMMEDNET requires EMPTYNRM YES
+reference to non-SGML character
+declaration of default entity
+reference to parameter entity in parameter separator in internal subset
+reference to parameter entity in token separator in internal subset
+reference to parameter entity in parameter literal in internal subset
+cannot generate system identifier for SGML declaration reference
+public text class of formal public identifier of SGML declaration must be SD
+SGML declaration reference was used but minimum literal was not ""ISO 8879:1986 .WWW.""
+member of model group containing #PCDATA has occurrence indicator
+member of model group containing #PCDATA is a model group
+reference to non-predefined entity
+reference to external entity
+declaration of default entity conflicts with IMPLYDEF ENTITY YES
+parsing with respect to more than one active doctype not supported
+cannot have active doctypes and link types at the same time
+number of concurrent document instances exceeds quantity specified for CONCUR parameter in SGML declaration .(.*)?.
+datatag group can only be specified in base document type
+element not in the base document type can't have an empty start-tag
+element not in base document type can't have an empty end-tag
+immediately recursive element
+invalid URN (.*)?: missing "":""
+invalid URN (.*)?: missing ""urn:"" prefix
+invalid URN (.*)?: invalid namespace identifier
+invalid URN (.*)?: invalid namespace specific string
+invalid URN (.*)?: extra field
+prolog can't be omitted unless CONCUR NO and LINK EXPLICIT NO and either IMPLYDEF ELEMENT YES or IMPLYDEF DOCTYPE YES
+can't determine name of #IMPLIED document element
+can't use #IMPLICIT doctype unless CONCUR NO and LINK EXPLICIT NO
+Sorry, #IMPLIED doctypes not implemented
+reference to DTD data entity ignored
+notation (.*)? for parameter entity (.*)? undefined
+notation (.*)? for external subset undefined
+attribute (.*)? can't be redeclared
+#IMPLICIT attributes have already been specified for notation (.*)?
+a name group is not allowed in a parameter entity reference in a start tag
+name group in a parameter entity reference in an end tag .SGML forbids them in start tags.
+if the declared value is NOTATION a default value of CONREF is useless
+Sorry, #ALL and #IMPLICIT content tokens not implemented
+Missing (.*)? attribute for element (.*)?. The value should be: (.*)?
+This interface to HTML5 document checking is obsolete. Use an interface to the W3C Nu Html Checker instead.

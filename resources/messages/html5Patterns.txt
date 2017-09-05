@@ -1,0 +1,138 @@
+(.*)? element between head and body.
+(.*)? in an unquoted attribute value. Probable causes: Attributes running together or a URL query string in an unquoted attribute value.
+(.*)? start tag in (.*)? body.
+A table row was (.*)? columns wide and exceeded the column count established using column markup .(.*)?..
+A table row was (.*)? columns wide, which is less than the column count established using column markup .(.*)?..
+An element with (.*)? must be contained in, or owned by, an element with (.*)? or (.*)? or (.*)? or (.*)? or (.*)?.
+An element with (.*)? must be contained in, or owned by, an element with (.*)? or (.*)? or (.*)?.
+An element with (.*)? must be contained in, or owned by, an element with (.*)? or (.*)?.
+An element with (.*)? must be contained in, or owned by, an element with (.*)?.
+Any (.*)? descendant of a (.*)? element with (.*)? for attribute must have an ID value that matches that for attribute.
+Attribute (.*)? is only allowed when the input type is (.*)?.
+Attribute (.*)? not allowed on element (.*)? at this point.
+Attribute (.*)? not allowed here.
+Attribute with the local name (.*)? is not serializable as XML 1.0.
+Attribute (.*)? is not serializable as XML 1.0.
+Bad character (.*)? after (.*)?. Probable cause: Unescaped <. Try escaping it as &lt;.
+Bad start tag in (.*)? in head.
+Bad value (.*)? for attribute (.*)? on element for (.*)?: Must be non-empty.
+Bad value (.*)? for attribute (.*)? on element (.*)?: The empty string is not a valid non-negative integer.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Illegal character in path segment: space is not allowed.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Illegal character in path segment: (.*)? is not allowed.
+Bad value (.*)? for attribute (.*)? on element (.*)?: An ID must not be the empty string.
+Bad value (.*)? for attribute (.*)? on element (.*)?: The empty string is not a valid floating point number.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Media query ended prematurely.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Browsing context name must be at least one character long.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Reserved keyword (.*)? used.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Illegal character in query: (.*)? is not allowed.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Subtags must not exceed 8 characters in length.
+Bad value (.*)? for attribute (.*)? on element (.*)?: The string (.*)? is not a registered keyword.
+Bad value (.*)? for attribute (.*)? on element (.*)?: No width specified for image (.*)?. .Because one or more image candidate strings specify a width .e.g., the string for image (.*)?., all image candidate strings must specify a width..
+Bad value (.*)? for attribute (.*)? on element (.*)?: Tab, new line or carriage return found.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Expected a digit but saw (.*)? instead.
+Bad value (.*)? for attribute (.*)? on element (.*)?: The literal did not satisfy the time-datetime format.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Subtype missing.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Illegal character in scheme data: space is not allowed.
+Bad value (.*)? for attribute (.*)? on element (.*)?: The language subtag (.*)? is not a valid ISO language part of a language tag.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Deprecated media type (.*)?. For guidance, see the Media Types section in the current Media Queries specification.
+Bad value (.*)? for attribute (.*)? on element (.*)?: An ID must not contain whitespace.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Invalid host: (.*)?.
+Bad value (.*)? for the attribute (.*)? .only (.*)? permitted here..
+Bad value (.*)? for attribute (.*)? on element (.*)?: (.*)? is not a preferred encoding name. The preferred label for this encoding is (.*)?.
+Bad value (.*)? for attribute (.*)? on element (.*)?: Expected a letter or whitespace but saw (.*)? instead.
+Bad value (.*)? for attribute (.*)? on element (.*)?: unterminated string literal.
+Bad value (.*)? for attribute (.*)? on element (.*)?.
+Character reference expands to a control character (.*)?.
+Couldn't find end of Start Tag (.*)? line (.*)?
+Discading superfluous token (.*)? from value of attribute role. Browsers only process the first token found that is a defined ARIA non-abstract role.
+Discarding unrecognized token (.*)? from value of attribute role. Browsers ignore any token that is not a defined ARIA non-abstract role.
+Duplicate attribute (.*)?.
+Duplicate ID (.*)?.
+Element (.*)? not allowed as child of element (.*)? in this context. .Suppressing further errors from this subtree..
+Element (.*)? is missing required attribute (.*)?.
+Element (.*)? is missing one or more of the following attributes: (.*)?.
+Element (.*)? is missing a required child element.
+Element (.*)? is missing a required instance of child element (.*)?.
+Element (.*)? is missing a required instance of one or more of the following child elements: (.*)?.
+Element (.*)? must not have attribute (.*)? unless attribute (.*)? is also specified.
+Element (.*)? must not be empty.
+End of file after (.*)?.
+End tag (.*)? violates nesting rules.
+End tag (.*)? seen, but there were open elements.
+End tag for (.*)? seen, but there were unclosed elements.
+End tag (.*)?.
+Forbidden code point (.*)?.
+HTML start tag (.*)? in a foreign namespace context.
+Internal encoding declaration (.*)? disagrees with the actual encoding of the document .(.*)?..
+Internal encoding declaration named an unsupported chararacter encoding (.*)?.
+Missing (.*)? attribute for element (.*)?. The value should be: (.*)?
+No digits after (.*)?.
+No (.*)? element in scope but a (.*)? end tag seen.
+Quote (.*)? in attribute name. Probable cause: Matching quote missing somewhere earlier.
+Row (.*)? of a row group established by a (.*)? element has no cells beginning on it.
+Saw (.*)? when expecting an attribute name. Probable cause: (.*)? missing immediately before.
+Saw (.*)? when expecting an attribute name. Probable cause: Missing (.*)? immediately before.
+StartTag: invalid element (.*)?
+Start tag (.*)? seen but an element of the same type was already open.
+Start tag (.*)? seen in table.
+Start tag (.*)? seen without a ruby element being open.
+Stray end tag (.*)?.
+Stray start tag (.*)?.
+Table cell spans past the end of its row group established by a (.*)? element; clipped to the end of the row group.
+Table column (.*)? established by element (.*)? has no cells beginning in it.
+Table columns in range (.*)? established by element (.*)? have no cells beginning in them.
+Text not allowed in element (.*)? in this context.
+The (.*)? attribute of the (.*)? element must refer to a (.*)? element.
+The (.*)? attribute must refer to a (.*)? element.
+The (.*)? attribute on the (.*)? element is obsolete. Consider instead beginning the cell contents with concise text, followed by further elaboration if needed.
+The (.*)? attribute on the (.*)? element is obsolete. Omitting the (.*)? attribute is sufficient.
+The (.*)? attribute on the (.*)? element is obsolete. Use CSS instead.
+The (.*)? attribute must point to an element in the same document.
+The (.*)? attribute on the (.*)? element is obsolete. Use an HTTP Content-Type header on the linked resource instead.
+The (.*)? attribute of the (.*)? element must refer to a non-hidden form control.
+The (.*)? attribute on a (.*)? element must have an the same value as the (.*)? attribute.
+The (.*)? attribute was specified, but the element is not a property of any item.
+The (.*)? attribute must not be specified on elements that do not have an (.*)? attribute specified.
+The (.*)? attribute on the (.*)? element is obsolete. Use the (.*)? attribute instead.
+The (.*)? attribute on the (.*)? element is obsolete. To declare which meta terms are used in the document, instead register the names as meta extensions. To trigger specific UA behaviors, use a link element instead.
+The (.*)? attribute on the (.*)? element is obsolete. Use the (.*)? attribute instead, with a term having the opposite meaning.
+The (.*)? attribute on the (.*)? element is obsolete. Consider describing the structure of the table in a caption element or in a figure element containing the table; or, simplify the structure of the table so that no description is needed.
+The (.*)? attribute on the (.*)? element is obsolete. You can safely omit it.
+The (.*)? attribute on the (.*)? element is obsolete. Specify the preferred persistent identifier using the (.*)? attribute instead.
+The (.*)? attribute on the (.*)? element is obsolete. Use the (.*)? attribute on a (.*)? element instead.
+The (.*)? attribute on the element (.*)? refers to the ID (.*)?, but there is no (.*)? element with that ID in the same table.
+The (.*)? attribute on the object element is obsolete. Use the data and type attributes to invoke plugins. To set a parameter with the name (.*)?, use the param element.
+The (.*)? attribute referenced (.*)?, but there is no element with an id attribute with that value.
+The (.*)? element is obsolete. Use CSS instead.
+The (.*)? element is obsolete. Use the (.*)? element instead.
+The (.*)? element on the (.*)? element is obsolete. Use a regular (.*)? element to link to the description.
+The (.*)? element on the (.*)? element is obsolete. Use script and a mechanism such as XMLHttpRequest to populate the page dynamically.
+The (.*)? element on the (.*)? element is obsolete. Use (.*)? instead of (.*)? for image maps.
+The (.*)? element is obsolete. Use the (.*)? element and CSS instead, or use server-side includes.
+The (.*)? element may contain at most one button, input, keygen, meter, output, progress, select, or textarea descendant.
+The (.*)? element must have a (.*)? ancestor.
+The (.*)? element with the (.*)? attribute set must have an (.*)? ancestor with the (.*)? attribute.
+The (.*)? role is unnecessary for element (.*)?.
+The character encoding was not declared. Proceeding using (.*)?.
+The element (.*)? must not appear as a descendant of the (.*)? element.
+The first occurrence of ID (.*)? was here.
+The hash-name reference in attribute usemap referred to (.*)?, but there is no map element with a name attribute with that value.
+The text content of element (.*)? was not in the required format: Content contains the character sequence (.*)? without a later occurrence of the character sequence (.*)?.
+The text content of element (.*)? was not in the required format: Expected asterisk or slash but found (.*)? instead.
+The text content of element (.*)? was not in the required format: Expected space, tab, newline, or slash but found (.*)? instead.
+The text content of element (.*)? was not in the required format: The literal did not satisfy the time-datetime format.
+Unclosed element (.*)?.
+Unmappable byte sequence: (.*)?.
+Using the (.*)? element to specify the document-wide default language is obsolete. Consider specifying the language on the root element instead.
+When the attribute (.*)? in no namespace is specified, the element must also have the attribute (.*)? present with the same value.
+A (.*)? element causes a (.*)? attribute with value (.*)? to be ignored on the parent (.*)?.
+A table row was (.*)? columns wide, which is less than the column count established by the first row .(.*)?..
+A table row was (.*)? columns wide and exceeded the column count established by the first row .(.*)?..
+Element (.*)? does not need a (.*)? attribute.
+Element (.*)? cannot be represented as XML 1.0.
+RCDATA element (.*)? contained the string (.*)?, but this did not close the element.
+The (.*)? element is not supported by all browsers. Please be sure to test, and consider using a polyfill.
+The (.*)? role is unnecessary for an (.*)? element that has no (.*)? attribute and whose type is (.*)?.
+The value of attribute (.*)? on element (.*)? from namespace (.*)? is not in Unicode Normalization Form C.
+The value of attribute (.*)? on element (.*)? from namespace (.*)? starts with a composing character.
+This document is not mappable to XML 1.0 without data loss due to (.*)? which is not a legal XML 1.0 character.

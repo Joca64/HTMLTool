@@ -1,0 +1,8 @@
+dataTypes/Webpage.class
+dataTypes/ValidatorResult.class
+ValidatorAPI.class
+dataTypes/ValidationSource.class
+dataTypes/ValidationMessage.class
+HTMLAnalyzer$1.class
+Utils/Utils.class
+HTMLAnalyzer.class

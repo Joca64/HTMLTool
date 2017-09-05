@@ -1,0 +1,138 @@
+X element between head and body.
+X in an unquoted attribute value. Probable causes: Attributes running together or a URL query string in an unquoted attribute value.
+X start tag in Y body.
+A table row was X columns wide and exceeded the column count established using column markup (Y).
+A table row was X columns wide, which is less than the column count established using column markup (Y).
+An element with X must be contained in, or owned by, an element with Y or Z or A or B or C.
+An element with X must be contained in, or owned by, an element with Y or Z or A.
+An element with X must be contained in, or owned by, an element with Y or Z.
+An element with X must be contained in, or owned by, an element with Y.
+Any X descendant of a Y element with Z for attribute must have an ID value that matches that for attribute.
+Attribute X is only allowed when the input type is Y.
+Attribute X not allowed on element Y at this point.
+Attribute X not allowed here.
+Attribute with the local name X is not serializable as XML 1.0.
+Attribute X is not serializable as XML 1.0.
+Bad character X after Y. Probable cause: Unescaped <. Try escaping it as &lt;.
+Bad start tag in X in head.
+Bad value X for attribute Y on element for Z: Must be non-empty.
+Bad value X for attribute Y on element Z: The empty string is not a valid non-negative integer.
+Bad value X for attribute Y on element Z: Illegal character in path segment: space is not allowed.
+Bad value X for attribute Y on element Z: Illegal character in path segment: A is not allowed.
+Bad value X for attribute Y on element Z: An ID must not be the empty string.
+Bad value X for attribute Y on element Z: The empty string is not a valid floating point number.
+Bad value X for attribute Y on element Z: Media query ended prematurely.
+Bad value X for attribute Y on element Z: Browsing context name must be at least one character long.
+Bad value X for attribute Y on element Z: Reserved keyword A used.
+Bad value X for attribute Y on element Z: Illegal character in query: A is not allowed.
+Bad value X for attribute Y on element Z: Subtags must not exceed 8 characters in length.
+Bad value X for attribute Y on element Z: The string A is not a registered keyword.
+Bad value X for attribute Y on element Z: No width specified for image A. (Because one or more image candidate strings specify a width (e.g., the string for image B), all image candidate strings must specify a width.)
+Bad value X for attribute Y on element Z: Tab, new line or carriage return found.
+Bad value X for attribute Y on element Z: Expected a digit but saw A instead.
+Bad value X for attribute Y on element Z: The literal did not satisfy the time-datetime format.
+Bad value X for attribute Y on element Z: Subtype missing.
+Bad value X for attribute Y on element Z: Illegal character in scheme data: space is not allowed.
+Bad value X for attribute Y on element Z: The language subtag X is not a valid ISO language part of a language tag.
+Bad value X for attribute Y on element Z: Deprecated media type A. For guidance, see the Media Types section in the current Media Queries specification.
+Bad value X for attribute Y on element Z: An ID must not contain whitespace.
+Bad value X for attribute Y on element Z: Invalid host: A.
+Bad value X for the attribute Y (only Z permitted here).
+Bad value X for attribute Y on element Z: A is not a preferred encoding name. The preferred label for this encoding is B.
+Bad value X for attribute Y on element Z: Expected a letter or whitespace but saw A instead.
+Bad value X for attribute Y on element Z: unterminated string literal.
+Bad value X for attribute Y on element Z.
+Character reference expands to a control character X.
+Couldn't find end of Start Tag X line Y
+Discading superfluous token X from value of attribute role. Browsers only process the first token found that is a defined ARIA non-abstract role.
+Discarding unrecognized token X from value of attribute role. Browsers ignore any token that is not a defined ARIA non-abstract role.
+Duplicate attribute X.
+Duplicate ID X.
+Element X not allowed as child of element Y in this context. (Suppressing further errors from this subtree.)
+Element X is missing required attribute Y.
+Element X is missing one or more of the following attributes: Y.
+Element X is missing a required child element.
+Element X is missing a required instance of child element Y.
+Element X is missing a required instance of one or more of the following child elements: Y.
+Element X must not have attribute Y unless attribute Z is also specified.
+Element X must not be empty.
+End of file after X.
+End tag X violates nesting rules.
+End tag X seen, but there were open elements.
+End tag for X seen, but there were unclosed elements.
+End tag X.
+Forbidden code point X.
+HTML start tag X in a foreign namespace context.
+Internal encoding declaration X disagrees with the actual encoding of the document (Y).
+Internal encoding declaration named an unsupported chararacter encoding X.
+Missing X attribute for element Y. The value should be: Z
+No digits after X.
+No X element in scope but a Y end tag seen.
+Quote X in attribute name. Probable cause: Matching quote missing somewhere earlier.
+Row X of a row group established by a Y element has no cells beginning on it.
+Saw X when expecting an attribute name. Probable cause: Y missing immediately before.
+Saw X when expecting an attribute name. Probable cause: Missing Y immediately before.
+StartTag: invalid element X
+Start tag X seen but an element of the same type was already open.
+Start tag X seen in table.
+Start tag X seen without a ruby element being open.
+Stray end tag X.
+Stray start tag X.
+Table cell spans past the end of its row group established by a X element; clipped to the end of the row group.
+Table column X established by element Y has no cells beginning in it.
+Table columns in range X established by element Y have no cells beginning in them.
+Text not allowed in element X in this context.
+The X attribute of the Y element must refer to a Z element.
+The X attribute must refer to a Y element.
+The X attribute on the Y element is obsolete. Consider instead beginning the cell contents with concise text, followed by further elaboration if needed.
+The X attribute on the Y element is obsolete. Omitting the Z attribute is sufficient.
+The X attribute on the Y element is obsolete. Use CSS instead.
+The X attribute must point to an element in the same document.
+The X attribute on the Y element is obsolete. Use an HTTP Content-Type header on the linked resource instead.
+The X attribute of the Y element must refer to a non-hidden form control.
+The X attribute on a Y element must have an the same value as the Z attribute.
+The X attribute was specified, but the element is not a property of any item.
+The X attribute must not be specified on elements that do not have an X attribute specified.
+The X attribute on the Y element is obsolete. Use the Z attribute instead.
+The X attribute on the Y element is obsolete. To declare which meta terms are used in the document, instead register the names as meta extensions. To trigger specific UA behaviors, use a link element instead.
+The X attribute on the Y element is obsolete. Use the Z attribute instead, with a term having the opposite meaning.
+The X attribute on the Y element is obsolete. Consider describing the structure of the table in a caption element or in a figure element containing the table; or, simplify the structure of the table so that no description is needed.
+The X attribute on the Y element is obsolete. You can safely omit it.
+The X attribute on the Y element is obsolete. Specify the preferred persistent identifier using the Z attribute instead.
+The X attribute on the Y element is obsolete. Use the Z attribute on a A element instead.
+The X attribute on the element Y refers to the ID Z, but there is no A element with that ID in the same table.
+The X attribute on the object element is obsolete. Use the data and type attributes to invoke plugins. To set a parameter with the name X, use the param element.
+The X attribute referenced Y, but there is no element with an id attribute with that value.
+The X element is obsolete. Use CSS instead.
+The X element is obsolete. Use the Y element instead.
+The X element on the Y element is obsolete. Use a regular Z element to link to the description.
+The X element on the Y element is obsolete. Use script and a mechanism such as XMLHttpRequest to populate the page dynamically.
+The X element on the Y element is obsolete. Use Z instead of A for image maps.
+The X element is obsolete. Use the Y element and CSS instead, or use server-side includes.
+The X element may contain at most one button, input, keygen, meter, output, progress, select, or textarea descendant.
+The X element must have a Y ancestor.
+The X element with the Y attribute set must have an Z ancestor with the A attribute.
+The X role is unnecessary for element Y.
+The character encoding was not declared. Proceeding using X.
+The element X must not appear as a descendant of the Y element.
+The first occurrence of ID X was here.
+The hash-name reference in attribute usemap referred to X, but there is no map element with a name attribute with that value.
+The text content of element X was not in the required format: Content contains the character sequence Y without a later occurrence of the character sequence Z.
+The text content of element X was not in the required format: Expected asterisk or slash but found Y instead.
+The text content of element X was not in the required format: Expected space, tab, newline, or slash but found Y instead.
+The text content of element X was not in the required format: The literal did not satisfy the time-datetime format.
+Unclosed element X.
+Unmappable byte sequence: X.
+Using the X element to specify the document-wide default language is obsolete. Consider specifying the language on the root element instead.
+When the attribute X in no namespace is specified, the element must also have the attribute Y present with the same value.
+A X element causes a Y attribute with value Z to be ignored on the parent A.
+A table row was X columns wide, which is less than the column count established by the first row (Y).
+A table row was X columns wide and exceeded the column count established by the first row (Y).
+Element X does not need a Y attribute.
+Element X cannot be represented as XML 1.0.
+RCDATA element X contained the string Y, but this did not close the element.
+The X element is not supported by all browsers. Please be sure to test, and consider using a polyfill.
+The X role is unnecessary for an Y element that has no Z attribute and whose type is A.
+The value of attribute X on element Y from namespace Z is not in Unicode Normalization Form C.
+The value of attribute X on element Y from namespace Z starts with a composing character.
+This document is not mappable to XML 1.0 without data loss due to X which is not a legal XML 1.0 character.
